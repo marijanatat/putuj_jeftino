@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-
+import Slider from '../offers/slider.js'
 const Home =()=>
     (
     <div>
-        home
+       <Slider></Slider>
     </div>
     )
 
