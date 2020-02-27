@@ -5,7 +5,7 @@ import FontAwesome from 'react-fontawesome';
 import style from './side.css'
 
 
-const SideNavItems = () => {
+const SideItem = () => {
 
     const items = [
         {
@@ -67,4 +67,4 @@ const SideNavItems = () => {
     )
 }
 
-export default SideNavItems;
+export default SideItem;

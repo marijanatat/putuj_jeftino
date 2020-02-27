@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './layout.css'
 import Header from '../header/header'
-// import Footer from '../../components/Footer/footer';
+import Footer from '../../components/footer/footer';
 
 export class Layout extends Component {
     constructor(props) {
@@ -26,7 +26,8 @@ export class Layout extends Component {
                 onHideNav={()=>this.toggleSideNav(false)}
                 />
                 {this.props.children}
-                {/* <Footer></Footer> */}
+                home
+                <Footer></Footer> 
             </div>
         )
     }
