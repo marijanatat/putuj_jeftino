@@ -5,3 +5,50 @@
     font-weight: 300;
     font-size: 21px;
 }
+
+.wrapper h3 {
+    text-align: center;
+    margin:20px;
+    color: #353535;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.wrapper {
+    display: flex;
+    border-bottom: 2px solid #d5d5d5;
+    background: #fff;
+}
+
+.wrapper h2 {
+    font-size:20px;
+    color:#940808;
+    font-weight: bold;
+}
+
+.left {
+    background-size: cover !important;
+    font-size:30px;
+}
+.left content{
+    font-size:30px;
+
+}
+
+.left div {
+    width:90px;
+    height:90px;
+    background-size:  40px !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+     background: url('/images/cities/play.png'); 
+}
+
+.right {
+    flex-grow: 1;
+    padding:10px;
+}
+
+.relatedWrapper {
+    margin:0 5px;
+}

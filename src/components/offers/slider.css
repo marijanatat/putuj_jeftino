@@ -19,12 +19,12 @@
 }
 
 .prvi_caption {
-    color:blue;
+    color:red;
     top:0px;
     width:100%;
     padding:20px;
     font-weight:400 bold;
-    font-size:30px;
+    font-size:35px;
     font-style: bold;
     box-sizing: border-box;
 }

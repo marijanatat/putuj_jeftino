@@ -7,7 +7,9 @@
             "image":"010-Pariz-1.jpg",
             "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "date":"27/02/2020",
-            "price":"170"
+            "price":"170",
+            "company":"Rayanair",
+            "aeroport":"Timisoara"
            
         },
         {
@@ -17,7 +19,9 @@
           "image":"191-Prag.jpg",
           "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "date":"01/05/2020",
-          "price":"450"
+          "price":"450",
+          "company":"Wizzair",
+          "aeroport":"Budapest"
         },
         {
           "id":3,
@@ -26,7 +30,9 @@
           "image":"274-Firenca.jpg",
           "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
           "date":"01/05/2020",
-          "price":"250"
+          "price":"250",
+          "company":"Rayanair",
+          "aeroport":"Nis"
         }
 
        
@@ -35,7 +41,7 @@
         {
           "id":1,
           "name":"Paris",
-          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
+          "title":"Paris city tour",
           "image":"010-Pariz-1.jpg",
           "url":"https://www.youtube.com/watch?v=A2gZYIMp2oc"
           
@@ -44,16 +50,25 @@
         {
           "id":2,
           "name":"Prag",
-          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
-          "image":"191-Prag.jpeg",
+          "title":"Prag city tour",
+          "image":"191-Prag.jpg",
           "url":"https://www.youtube.com/watch?v=lRPNqIpOVzs"
         },
         {
           "id":3,
           "name":"Rim",
-          "title":"Qui blanditiis praesentium voluptatum deleniti atque corrupti quos",
-          "image":"rim.jpeg",
+          "title":"Rim city tour",
+          "image":"rim.jpg",
           "url":"https://www.youtube.com/watch?v=V2VcEkPaeF4"
+        },
+        {
+          "id":4,
+          "name":"Madrid",
+          "title":"Madrid city tour",
+          "image":"343-Madrid.jpg",
+          "url":"https://www.youtube.com/watch?v=A2gZYIMp2oc"
+          
+         
         }
        
     ]

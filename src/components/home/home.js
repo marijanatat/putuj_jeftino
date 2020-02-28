@@ -15,11 +15,12 @@ const Home =()=>
             />
 
             <Video
-                type="card"
+                
                 title={true}
                 loadmore={false}
                 start={0}
                 amount={3}
+                
             />
 
     </div>

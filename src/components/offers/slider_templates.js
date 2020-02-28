@@ -32,6 +32,11 @@ const SliderTemplates = (props) => {
                              <Link to={`/offers/${item.id}`}>
                                  <div className='prvi_caption'>
                                      {item.title}
+                                     <br></br>
+                                     {item.date}
+                                     <br></br>
+                                     {item.company} 
+                                     AEROPORT: {item.aeroport}
                                 </div>
                              </Link>
                         </div> 
