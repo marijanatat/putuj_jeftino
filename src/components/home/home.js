@@ -17,7 +17,7 @@ const Home =()=>
             <Video
                 type="card"
                 title={true}
-                loadmore={true}
+                loadmore={false}
                 start={0}
                 amount={3}
             />
