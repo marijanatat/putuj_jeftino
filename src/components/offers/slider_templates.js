@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 
 import Slick from 'react-slick';
-import styles from './slider.css'
+import  './slider.css'
 
 const SliderTemplates = (props) => {
 
@@ -18,35 +18,39 @@ const SliderTemplates = (props) => {
         ...props.settings
     }
 
-    switch(props.type){
-        case ('featured'):
-            template = props.data.map( (item,i) =>{
+     switch(props.type){
+        case ('prvi'):
+             template = props.data.map( (item,i) =>{
                 return(
-                    <div key={i}>
-                       <div className={styles.featured_item}>
-                            <div className={styles.featured_image}
+                     <div key={i}>
+                         {i}
+                         <div className='prvi_item'>
+                             <div className='prvi_image'
                                 style={{
-                                    background:`url(../images/offers/${item.image})`
-                                }}></div>
-                            <Link to={`/offers/${item.id}`}>
-                                <div className={styles.featured_caption}>
-                                    {item.title}
+                                     background:`url(../images/offers/${item.image})`
+                                 }}></div>
+                             <Link to={`/offers/${item.id}`}>
+                                 <div className='prvi_caption'>
+                                     {item.title}
                                 </div>
-                            </Link>
-                       </div>
-                    </div>
+                             </Link>
+                        </div> 
+                     </div>
                 )
-            })
-            break;
-        default:
+             })
+             break;
+       default:
             template = null;
 
-    }
+ }
 
 
- console.log(props)
+ //console.log(props)
     return(
-        <Slick {...settings} >
+        // <Slick {...settings} >
+        //     {template}
+        // </Slick>
+        <Slick {...settings}>
             {template}
         </Slick>
     )

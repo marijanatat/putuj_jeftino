@@ -8,7 +8,7 @@ export class Slider extends Component {
     }
     componentDidMount(){
        // _start=0 &_end=2
-        axios.get( `http://localhost:3004/offers`)
+        axios.get( `http://localhost:3004/offers?_start=${this.props.start}&_end=${this.props.amount}`)
         .then(response=>{
            this.setState({
                offers:response.data
@@ -20,7 +20,7 @@ export class Slider extends Component {
       // console.log(this.state.offe rs)
         return (
             <div>
-                <SliderTemplates data={this.state.offers}/>
+                <SliderTemplates data={this.state.offers} type={this.props.type} setting={this.props.setting}/>
             </div>
         )
     }

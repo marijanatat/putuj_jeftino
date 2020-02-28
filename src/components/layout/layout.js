@@ -26,7 +26,7 @@ export class Layout extends Component {
                 onHideNav={()=>this.toggleSideNav(false)}
                 />
                 {this.props.children}
-                home
+                
                 <Footer></Footer> 
             </div>
         )
