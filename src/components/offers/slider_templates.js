@@ -23,7 +23,7 @@ const SliderTemplates = (props) => {
              template = props.data.map( (item,i) =>{
                 return(
                      <div key={i}>
-                         {i}
+                         {/* {i} */}
                          <div className='prvi_item'>
                              <div className='prvi_image'
                                 style={{

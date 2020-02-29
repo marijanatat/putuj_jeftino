@@ -34,6 +34,8 @@ import Side from '../sideNav/Side'
                        {/* {navBars()} */}
                        {logo()} 
                    </div>
+                   <div className='naslov'>JEFTINA PUTOVANJA</div>
+                  
                 </header>
                            
         )  

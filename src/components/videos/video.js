@@ -70,16 +70,36 @@ request=(start, end)=>{
                      }} 
                 >
                      
-                      <div></div> 
+                      {/* <div></div>  */}
+                      
                     </div>
+                    </div>
+                    
+                    
                      
-                {/* </div> */}
+               
 
                 <div className='right'>
                 <h2>{item.title}</h2>
                   {/* {item.url} */}
+                  <div className='video'>
+                   {/* <iframe 
+                     title="video player"
+                     width="100%"
+                     height="300px"
+                     src={`https://www.youtube.com/embed/${item.url}`}
+                   
+                   ></iframe> */}
+                   <iframe width="560" height="315" 
+                   src={`https://www.youtube.com/embed/${item.url}`}
+                   frameborder="0" allow="accelerometer" autoplay
+                   encrypted-media gyroscope picture-in-picture 
+                   allowfullscreen>
+                   </iframe>
+                   
+                    </div>
                 </div>
-                </div>
+                
             
         </Link>
     }   
@@ -100,12 +120,15 @@ request=(start, end)=>{
 
 
     render() {
-        console.log(this.state.videos)
+        const video=this.state.videos;
+        //console.log(this.state.videos)
         return (
             <div className='video1'>
                 {this.renderTitle()}
                 {this.renderVideo()}
                 {this.renderButton()}
+
+                
             </div>
         )
     }
