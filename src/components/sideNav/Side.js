@@ -24,8 +24,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
          Videos
        </a>
 
-       <a className="menu-item" href="/sign-in">
-         Sign-in
+       <a className="menu-item" href="/login">
+         Log-in
        </a>
 
        <a className="menu-item" href="/sign-out">
