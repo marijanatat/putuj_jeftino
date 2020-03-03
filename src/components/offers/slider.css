@@ -1,0 +1,30 @@
+.prvi_item {
+    position:relative;
+}
+
+.prvi_item a {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    text-decoration: none;
+    right:0px;
+}
+
+.prvi_image {
+    bottom: 0px;
+    height:500px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    display: flex;
+}
+
+.prvi_caption {
+    color:red;
+    top:0px;
+    width:100%;
+    padding:20px;
+    font-weight:400 bold;
+    font-size:35px;
+    font-style: bold;
+    box-sizing: border-box;
+}

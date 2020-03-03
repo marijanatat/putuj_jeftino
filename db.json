@@ -1,0 +1,152 @@
+{
+    "offers":[
+        {
+            "id":1,
+            "name":"Paris",
+            "title":"Avio karte za Pariz za 49eura.",
+            "image":"010-Pariz-1.jpg",
+            "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "date":"27/02/2020",
+            "price":"170",
+            "company":"Rayanair",
+            "aeroport":"Timisoara"
+           
+        },
+        {
+          "id":2,
+          "name":"Prag",
+          "title":"Prag za 19 eura.",
+          "image":"191-Prag.jpg",
+          "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "date":"01/05/2020",
+          "price":"450",
+          "company":"Wizzair",
+          "aeroport":"Budapest"
+        },
+        {
+          "id":3,
+          "name":"Firenca",
+          "title":"Firenca za samo 20eura.",
+          "image":"274-Firenca.jpg",
+          "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "date":"01/05/2020",
+          "price":"250",
+          "company":"Rayanair",
+          "aeroport":"Nis"
+        },
+        {
+          "id":4,
+          "name":"Paris",
+          "title":"Avio karte za Pariz za 49eura.",
+          "image":"010-Pariz-1.jpg",
+          "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "date":"27/02/2020",
+          "price":"170",
+          "company":"Rayanair",
+          "aeroport":"Timisoara"
+         
+      },
+      {
+        "id":5,
+        "name":"Paris",
+        "title":"Avio karte za Pariz za 49eura.",
+        "image":"010-Pariz-1.jpg",
+        "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "date":"27/02/2020",
+        "price":"170",
+        "company":"Rayanair",
+        "aeroport":"Timisoara"
+       
+    },
+    {
+      "id":6,
+      "name":"Paris",
+      "title":"Avio karte za Pariz za 49eura.",
+      "image":"010-Pariz-1.jpg",
+      "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "date":"27/02/2020",
+      "price":"170",
+      "company":"Rayanair",
+      "aeroport":"Timisoara"
+     
+  },
+  {
+    "id":7,
+    "name":"Paris",
+    "title":"Avio karte za Pariz za 49eura.",
+    "image":"010-Pariz-1.jpg",
+    "body":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "date":"27/02/2020",
+    "price":"170",
+    "company":"Rayanair",
+    "aeroport":"Timisoara"
+   
+}
+
+       
+    ],
+    "cities":[
+        {
+          "id":1,
+          "name":"Paris",
+          "title":"Paris city tour",
+          "image":"010-Pariz-1.jpg",
+          "url":"A2gZYIMp2oc"
+          
+         
+        },
+        {
+          "id":2,
+          "name":"Prag",
+          "title":"Prag city tour",
+          "image":"191-Prag.jpg",
+          "url":"ufcvcesZalI"
+        },
+        {
+          "id":3,
+          "name":"Rim",
+          "title":"Rim city tour",
+          "image":"rim.jpg",
+          "url":"V2VcEkPaeF4"
+        },
+        {
+          "id":4,
+          "name":"Madrid",
+          "title":"Madrid city tour",
+          "image":"343-Madrid.jpg",
+          "url":"79wiD35hdmM"
+          
+         
+        },
+        {
+          "id":5,
+          "name":"Firenca",
+          "title":"Firenca city tour",
+          "image":"274-Firenca.jpg",
+          "url":"68nPtuty6Nw"
+          
+         
+        },
+        {
+          "id":6,
+          "name":"Moskva",
+          "title":"Moskva city tour",
+          "image":"138-Moskva.jpg",
+          "url":"hapLqoeTcQo"
+          
+         
+        },
+        {
+          "id":7,
+          "name":"Milano",
+          "title":"Milano city tour",
+          "image":"281-Milano.jpg",
+          "url":"68nPtuty6Nw"
+          
+         
+        }
+       
+    ]
+    
+      
+}
